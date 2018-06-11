@@ -9,3 +9,14 @@ C:\angularApps\myAppy1\myAppy1.API\obj\Debug\netcoreapp2.0\myAppy1.API.AssemblyI
 C:\angularApps\myAppy1\myAppy1.API\obj\Debug\netcoreapp2.0\myAppy1.API.AssemblyInfo.cs
 C:\angularApps\myAppy1\myAppy1.API\obj\Debug\netcoreapp2.0\myAppy1.API.dll
 C:\angularApps\myAppy1\myAppy1.API\obj\Debug\netcoreapp2.0\myAppy1.API.pdb
+C:\angularApps\myApps\myAppy1.API\bin\Debug\netcoreapp2.0\myAppy1.API.deps.json
+C:\angularApps\myApps\myAppy1.API\bin\Debug\netcoreapp2.0\myAppy1.API.runtimeconfig.json
+C:\angularApps\myApps\myAppy1.API\bin\Debug\netcoreapp2.0\myAppy1.API.runtimeconfig.dev.json
+C:\angularApps\myApps\myAppy1.API\bin\Debug\netcoreapp2.0\myAppy1.API.dll
+C:\angularApps\myApps\myAppy1.API\bin\Debug\netcoreapp2.0\myAppy1.API.pdb
+C:\angularApps\myApps\myAppy1.API\obj\Debug\netcoreapp2.0\myAppy1.API.csprojAssemblyReference.cache
+C:\angularApps\myApps\myAppy1.API\obj\Debug\netcoreapp2.0\myAppy1.API.csproj.CoreCompileInputs.cache
+C:\angularApps\myApps\myAppy1.API\obj\Debug\netcoreapp2.0\myAppy1.API.AssemblyInfoInputs.cache
+C:\angularApps\myApps\myAppy1.API\obj\Debug\netcoreapp2.0\myAppy1.API.AssemblyInfo.cs
+C:\angularApps\myApps\myAppy1.API\obj\Debug\netcoreapp2.0\myAppy1.API.dll
+C:\angularApps\myApps\myAppy1.API\obj\Debug\netcoreapp2.0\myAppy1.API.pdb

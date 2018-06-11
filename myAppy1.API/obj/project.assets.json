@@ -12539,11 +12539,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\angularApps\\myAppy1\\myAppy1.API\\myAppy1.API.csproj",
+      "projectUniqueName": "C:\\angularApps\\myApps\\myAppy1.API\\myAppy1.API.csproj",
       "projectName": "myAppy1.API",
-      "projectPath": "C:\\angularApps\\myAppy1\\myAppy1.API\\myAppy1.API.csproj",
+      "projectPath": "C:\\angularApps\\myApps\\myAppy1.API\\myAppy1.API.csproj",
       "packagesPath": "C:\\Users\\ndurg\\.nuget\\packages\\",
-      "outputPath": "C:\\angularApps\\myAppy1\\myAppy1.API\\obj\\",
+      "outputPath": "C:\\angularApps\\myApps\\myAppy1.API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
