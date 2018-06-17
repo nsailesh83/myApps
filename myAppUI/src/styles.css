@@ -1,1 +1,89 @@
 /* You can add global styles to this file, and also import other style files */
+.dropdown-menu {
+    margin: 8px;
+    padding: 10px;
+}
+.dropdown-menu li,dropdown-toggle {
+    cursor: pointer;
+}
+.topcorner{
+    position:absolute;
+    top:0;
+    right:0;
+   }
+   .bg-company-color {
+    background-color:rgb(189, 199, 202);
+}
+
+.form-inline > * {
+    margin:5px 3px !important;
+} 
+
+/* body {
+    margin: 90px;
+    padding: 0px; 
+} */
+ .navbar-toggler-icon
+{
+  background:rgb(8, 30, 51) ;
+  border-color:rgb(0, 0, 0);
+}
+.navbar-toggle
+{
+  background:transparent !important;
+  border-color: rgb(25, 80, 134);
+}  
+
+.bg-company-red {
+    background-color: rgb(14, 1, 19);
+}
+
+.tab-panel {
+    border: 1px solid #ddd;
+    padding : 10px;
+    border-radius: 4px;
+}
+
+.nav-tabs > li.open, .member-tabset > .nav-tabs > li.hover {
+     border-bottom: 25 px solid #1b020300;
+}
+
+.member-tabset > .nav-tabs >li.open > a, .member-tabset > .nav-tabs > li-hover > a {
+    border: 0;
+    background: none !important;
+    columns: #333333;
+}
+
+.member-tabset > .nav-tabs >li.open > a > i , .member-tabset > .nav-tabs > li-hover > a > i {
+    color: #090d30;
+}
+
+.member-tabset > .nav-tabs >li.open .dropdown-menu , .member-tabset > .nav-tabs > li-hover .dropdown-menu {
+    margin-top: 0px;
+}
+
+.member-tabset > .nav-tabs > li.active {
+    border-bottom: 4px solid rgb(9, 41, 109);
+    position: relative;
+}
+
+.member-tabset > .nav-tabs > li.active > a {
+    border: 0 !important; 
+    color: #333333;
+}
+
+.member-tabset > .nav-tabs > li.active > a > i {
+    color: #404040;
+}
+
+.member-tabset > .tab-content {
+margin-top:  -3px;
+background-color: #fff;
+border: 0;
+border-top: 1 px solid #eee;
+padding: 15px 0;
+}
+
+
+
+

@@ -14,7 +14,6 @@ using myAppy1.API.models;
 
 namespace app1.API.Controllers
 {
-    [Authorize]
     [Route("api/[controller]")]
     public class AuthController : Controller
     {
