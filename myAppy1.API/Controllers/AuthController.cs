@@ -30,6 +30,7 @@ namespace app1.API.Controllers
         [HttpPost("register")]
         public async Task<IActionResult> Register([FromBody] UserForRegistrationDto userForRegisterDto)
         {
+            if(!string.IsNullOrEmpty(userForRegisterDto.Username))
             userForRegisterDto.Username = userForRegisterDto.Username.ToLower();
 
             if (await _repo.UserExists(userForRegisterDto.Username))
