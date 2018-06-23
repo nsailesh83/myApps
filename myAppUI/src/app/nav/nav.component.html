@@ -52,7 +52,7 @@
       </div> 
       <ul *ngIf="loggedIn()" class="nav navbar-nav navbar-right">
         <li class="dropdown" dropdown>
-          <a  class="dropdown-toggle" dropdownToggle>
+          <a  (click) = "false" class="dropdown-toggle" dropdownToggle>
             Welcome {{authService.decodedToken?.unique_name | titlecase}} 
             <span class="caret"></span></a>
           <ul class="dropdown-menu" *dropdownMenu>

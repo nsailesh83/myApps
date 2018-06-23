@@ -13,6 +13,10 @@ import { RouterModule } from '@angular/router';
 import { appRoutes } from './routes';
 import { AuthService } from './_services/auth.service';
 import { AlertifyService } from './_services/alertify.service';
+import { MemberListsComponent } from './member-lists/member-lists.component';
+import { ListsComponent } from './lists/lists.component';
+import { MessagesComponent } from './messages/messages.component';
+import { AuthGuard } from './_guards/auth.guard';
 
 
 @NgModule({
@@ -23,6 +27,10 @@ import { AlertifyService } from './_services/alertify.service';
     RegisterComponent,
     HomeComponent
 
+,
+    MemberListsComponent,
+    ListsComponent,
+    MessagesComponent
 ],
   imports: [
     BrowserModule,
@@ -34,7 +42,8 @@ import { AlertifyService } from './_services/alertify.service';
   ],
   providers: [
     AuthService,
-    AlertifyService
+    AlertifyService,
+    AuthGuard
   ],
   bootstrap: [AppComponent]
 })
