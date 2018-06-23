@@ -12,6 +12,7 @@ import { BsDropdownModule, CollapseModule, TabsModule } from 'ngx-bootstrap';
 import { RouterModule } from '@angular/router';
 import { appRoutes } from './routes';
 import { AuthService } from './_services/auth.service';
+import { AlertifyService } from './_services/alertify.service';
 
 
 @NgModule({
@@ -30,7 +31,10 @@ import { AuthService } from './_services/auth.service';
     CollapseModule,
     RouterModule.forRoot(appRoutes),
   ],
-  providers: [AuthService],
+  providers: [
+    AuthService,
+    AlertifyService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
