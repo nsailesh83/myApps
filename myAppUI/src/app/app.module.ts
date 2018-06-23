@@ -29,6 +29,7 @@ import { AlertifyService } from './_services/alertify.service';
     HttpModule,
     FormsModule,
     CollapseModule,
+    BsDropdownModule.forRoot(),
     RouterModule.forRoot(appRoutes),
   ],
   providers: [
